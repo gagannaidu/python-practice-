@@ -16,3 +16,12 @@ print (a + str(d))
 print ((len(a) + len(b))*2)
 
 
+print (a.upper())
+
+print (a.find('with'))
+
+print (a.replace('with','in'))
+
+
+car = "{s},{n} and {m}".format(s='audi',m='bmw',n='scoda')
+print (car)
